@@ -31,6 +31,15 @@ with questions for class!
     a compiled application?  What is the minimum parallel time given
     an arbitrary number of processors?
 
+    ANSWER:
+     |  GCC (1 hr) _____ OpenMPI   (0.5 hr) ___________________________ application (0.5 hr)
+     |             \_____ OpenBlas (0.25 hr) _____ LAPACK (0.5 hr) ___/
+	 | 
+	 | Without working in parallel, it would take a total of 2.75 hr all in a series.
+	 | However, if OpenMPI is compiled on another processor, OpenBlas and LAPACK can 
+	 | be compiled during the same time period, cutting the overall time down to 2.25 hr.
+
+
 5.  Clone the membench repository from GitHub:
 
        git clone git@github.com:cornell-cs5220-f15/membench.git

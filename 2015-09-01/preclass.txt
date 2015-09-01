@@ -71,7 +71,7 @@ with questions for class!
     on your machine from the plot?
 
 	ANSWER:
-	 | 
+	 | Installing pandas...
 	 |
 	 |
 	 |

@@ -5,8 +5,16 @@ the glider pattern for a few generations.
 
 0.  How much time did you spend on this pre-class exercise, and when?
 
+  - Starting this on Sept. 14th (didn't have much time earlier)
+
 1.  What are one or two points that you found least clear in the
     9/15 slide decks (including the narration)?
+
+  - I found the particle slides to be more useful because the examples 
+  	were more concrete.  The main slides and life slides seemed more
+  	talking points of general ideas, but maybe linking to a research paper
+  	or two that mention the general ideas and how that relates to specific 
+  	functions?
 
 2.  In the basic implementation provided, what size board for the Game
     of Life would fit in L3 cache for one of the totient nodes?  Add a
